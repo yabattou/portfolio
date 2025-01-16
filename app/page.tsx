@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Me from '../public/MyPicture.webp'
+import Me from '../public/moi.jpg'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { HiOutlineMail } from 'react-icons/hi'
 export default function Home() {
@@ -14,21 +14,21 @@ export default function Home() {
           placeholder='blur'
         />
         <div className='grid gap-5 mt-5'>
-          <h1 className='text-center font-bold text-3xl'>Fodhil Benhiba</h1>
-          <h2 className='text-center text-lg '>Web developer | Cyber Security enthusiast | CTF player</h2>
+          <h1 className='text-center font-bold text-3xl'>HADJEBAR Nassim</h1>
+          <h2 className='text-center text-lg '>devloppeur web | étudiant en informatique</h2>
           <div className='flex justify-center gap-5 text-2xl'>
-            <a href='https://github.com/fodhil-ben'><BsGithub></BsGithub></a>
-            <a href='https://www.linkedin.com/in/fodhil-benhiba/'><BsLinkedin></BsLinkedin></a>
-            <a href='/Contact'><HiOutlineMail></HiOutlineMail></a>
+            <a href='https://github.com/nassimhadj'><BsGithub></BsGithub></a>
+            <a href='https://www.linkedin.com/in/nassim-hadjebar-836466290/'><BsLinkedin></BsLinkedin></a>
+            
           </div>
         </div>
       </div>
       <div className='text-xl text-center md:text-left box-border mt-10'>
         <p>
-          Hello There! I&apos;m Fodhil, a 19 years old Computer Science student and a dedicated Web
-          developer whith passion in cyber security based in Algeria
+          Bonjour! je suis Nassim , un étudiant en informatique et un devloppeur web a l'age de 19 ans 
+          courament etudiant en L2 informatique à l'université d'Angers en France
         </p>
-        <p>I build dynamic web applications with fully responsive front end with a scalable and efficient backend </p>
+        
       </div>
     </div>
   )

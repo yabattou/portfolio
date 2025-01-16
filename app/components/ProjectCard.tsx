@@ -29,7 +29,7 @@ const ProjectCard: FC<projectCardProps> = ({ title, image, stack, desc, link }) 
                 </div>
                 <div className='absolute p-5 top-full invisible text-md font-semibold group-hover/card:visible w-full left-0 duration-500  group-hover/card:top-10 h-full group-hover/card:bg-white group-hover/card:block dark:group-hover/card:bg-black opacity-95 group-hover/card:z-20'>{desc}
                     <a href={link} target="_blank">
-                        <button className="flex items-center gap-3 w-fit bottom-10 absolute right-0 mr-5 mb-5 dark:bg-white shadow-md bg-black text-white rounded-xl dark:text-black p-3 font-bold"> Visit Demo
+                        <button className="flex items-center gap-3 w-fit bottom-10 absolute right-0 mr-5 mb-5 dark:bg-white shadow-md bg-black text-white rounded-xl dark:text-black p-3 font-bold"> Voir le code
                             <BsFillArrowRightCircleFill ></BsFillArrowRightCircleFill>
                         </button>
                     </a>

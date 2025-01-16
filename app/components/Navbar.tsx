@@ -14,7 +14,7 @@ export const Navbar = () => {
     return (
         <div className='px-5 md:px-10 shadow-md dark:shadow-gray-800 font-bold text-xl'>
             <div className='flex justify-between'>
-                <h1 className='p-5'>Fodhil Benhiba</h1>
+                <h1 className='p-5'>HADJEBAR Nassim</h1>
                 <div className={`flex items-center`}>
                     <div className='hidden md:flex'>
                         {links.map((e, i) => {

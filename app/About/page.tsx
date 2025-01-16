@@ -1,6 +1,6 @@
 import React from 'react'
 import MainTitle from '../components/MainTitle'
-import { BiLogoPostgresql, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi'
+import { BiLogoPostgresql, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoJava, BiLogoPhp, BiLogoFigma } from 'react-icons/bi'
 import { SiSocketdotio, SiExpress, SiNextdotjs, SiPrisma, SiGraphql, SiApollographql} from 'react-icons/si'
 
 import { DiNodejs } from 'react-icons/di'
@@ -21,19 +21,14 @@ const Technologies: Technology[] = [
     { name: 'Git', logo: <BsGit /> },
     { name: 'Node js', logo: <DiNodejs /> },
     { name: 'Tailwind Css', logo: <BiLogoTailwindCss /> },
-    { name: 'socket.io', logo: <SiSocketdotio /> },
+    {name: 'JAVA', logo:<BiLogoJava/>} ,
+    {name : 'PHP' , logo: <BiLogoPhp/>} ,
     { name: 'Express Js', logo: <SiExpress /> },
-    { name: 'PostgreSQL', logo: <BiLogoPostgresql /> },
-    { name: 'Next js', logo: <SiNextdotjs /> },
+    {name:'UI/UX' , logo:<BiLogoFigma/>},
     { name: 'Typescript', logo: <BiLogoTypescript /> },
     { name: 'Python', logo: <FaPython /> },
-    
-    { name: 'Prisma', logo: <SiPrisma />    },
-    // { name: 'Drizzle', logo: <SiDrizzle />    },
-    { name: 'GraphQL', logo: <SiGraphql />    },
-    { name: 'Appolo Server', logo: <SiApollographql />    },
-    { name: 'Docker', logo:<FaDocker />    },
-    { name: 'Laravel', logo: <FaLaravel />    },
+    { name: 'Appolo', logo: <SiApollographql />    },
+
 ];
 
 const About = () => {
@@ -41,18 +36,24 @@ const About = () => {
     return (
         <div className='container m-auto flex flex-col lg:flex-row items-center lg:items-start lg:gap-40 px-10'>
             <div className='md:w-1/2'>
-                <MainTitle title={'About Me'} />
+                <MainTitle title={'Apropos de moi'} />
                 <div className='text-xl mt-20 border-t dark:border-gray-800 tracking-wider line shadow-xl p-10 rounded-lg dark:shadow-gray-800'>
-                    <p>Hello there! I am Fodhil, a first-year student at the Higher School of Computer Science in Sidi Bel Abbes.</p>
-                    <br />
-                    <p>I&apos;m an aspiring full-stack developer with a passion for cybersecurity. I enjoy solving CTF challenges and am on an exciting journey to master the art of crafting seamless web experiences while exploring the complex world of cybersecurity.</p>
-                    <br />
-                    <p>With a strong interest in both front-end and back-end development, I am committed to refining my skills and expanding my knowledge to create innovative solutions that merge functionality with security.</p>
+                    <p>HADJEBAR Nassim , un étudiant en informatique </p>
+                    <p><strong>Formation :</strong></p>
+<p>Mon parcours académique reflète une progression ambitieuse vers le développement web :</p>
+<br/>
+<p>Actuellement, je prépare un <strong>Bachelor 3 en Développement Web</strong> à l'EPSI France pour l'année prochaine. J'envisage de poursuivre cette formation en alternance l'année prochaine afin de me spécialiser et d'acquérir une expérience pratique enrichissante dans le domaine du développement web.</p>
+<br/>
+<p>Parallèlement, je suis inscrit en <strong>L2 en Informatique</strong> à l'Université d'Angers, où j'approfondis mes connaissances techniques tout en consolidant mes compétences dans la programmation.</p>
+<br/>
+<p>Mes bases ont été construites à l'<strong>École Nationale Supérieure d'Informatique</strong> (ESI SBA), où j'ai validé deux années de classes préparatoires. En <em>première année</em>, j'ai obtenu une mention <strong>très bien</strong>, et en <em>deuxième année</em>, une mention <strong>bien</strong>, ce qui m'a permis de développer rigueur et polyvalence.</p>
+<p>Ce parcours me prépare à exceller dans le domaine du développement web, avec une approche pratique et des bases théoriques solides.</p>
+
                 </div>
             </div>
 
             <div className='md:w-1/2'>
-                <MainTitle title={'Technologies that i used'} />
+                <MainTitle title={'mes comptences'} />
                 <div className='flex mt-20 flex-wrap justify-between gap-x-5 gap-y-3 md:gap-x-10 md:gap-y-5'>
                     {Technologies.map((e, i) => {
                         return <div key={i} className='border hover:bg-black dark:shadow-gray-800 shadow-2xl hover:text-white dark:hover:bg-white dark:hover:text-black p-3 flex rounded-lg duration-500 items-center gap-4'>
