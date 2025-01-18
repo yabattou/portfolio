@@ -25,8 +25,8 @@ export default function Home() {
       </div>
       <div className='text-xl text-center md:text-left box-border mt-10'>
         <p>
-          Bonjour! je suis Nassim , un étudiant en informatique et un devloppeur web a l'age de 19 ans 
-          courament etudiant en L2 informatique à l'université d'Angers en France
+          Bonjour! je suis Nassim , un étudiant en informatique et un devloppeur web a l&apos;age de 19 ans 
+          courament etudiant en L2 informatique à l&apos;université d&apos;Angers en France
         </p>
         
       </div>
