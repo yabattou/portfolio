@@ -42,11 +42,11 @@ const About = () => {
                     <p><strong>Formation :</strong></p>
 <p>Mon parcours académique reflète une progression ambitieuse vers le développement web :</p>
 <br/>
-<p>Actuellement, je prépare un <strong>Bachelor 3 en Développement Web</strong> à l'EPSI France pour l'année prochaine. J'envisage de poursuivre cette formation en alternance l'année prochaine afin de me spécialiser et d'acquérir une expérience pratique enrichissante dans le domaine du développement web.</p>
+<p>je souhaite integrer un <strong>Bachelor 3 en Développement Web</strong> à l&apos;EPSI France pour l&apos;année prochaine. J&apos;envisage de poursuivre cette formation en alternance l&apos;année prochaine afin de me spécialiser et d&apos;acquérir une expérience pratique enrichissante dans le domaine du développement web.</p>
 <br/>
-<p>Parallèlement, je suis inscrit en <strong>L2 en Informatique</strong> à l'Université d'Angers, où j'approfondis mes connaissances techniques tout en consolidant mes compétences dans la programmation.</p>
+<p>actuellement, je suis inscrit en <strong>L2 en Informatique</strong> à l&apos;Université d&apos;Angers, où j&apos;approfondis mes connaissances techniques tout en consolidant mes compétences dans la programmation.</p>
 <br/>
-<p>Mes bases ont été construites à l'<strong>École Nationale Supérieure d'Informatique</strong> (ESI SBA), où j'ai validé deux années de classes préparatoires. En <em>première année</em>, j'ai obtenu une mention <strong>très bien</strong>, et en <em>deuxième année</em>, une mention <strong>bien</strong>, ce qui m'a permis de développer rigueur et polyvalence.</p>
+<p>Mes bases ont été construites à l&apos;<strong>École Nationale Supérieure d'Informatique</strong> (ESI SBA), où j'ai validé deux années de classes préparatoires. En <em>première année</em>, j&apos;ai obtenu une mention <strong>très bien</strong>, et en <em>deuxième année</em>, une mention <strong>bien</strong>, ce qui m&apos;a permis de développer rigueur et polyvalence.</p>
 <p>Ce parcours me prépare à exceller dans le domaine du développement web, avec une approche pratique et des bases théoriques solides.</p>
 
                 </div>
