@@ -46,7 +46,7 @@ const About = () => {
 <br/>
 <p>actuellement, je suis inscrit en <strong>L2 en Informatique</strong> à l&apos;Université d&apos;Angers, où j&apos;approfondis mes connaissances techniques tout en consolidant mes compétences dans la programmation.</p>
 <br/>
-<p>Mes bases ont été construites à l&apos;<strong>École Nationale Supérieure d'Informatique</strong> (ESI SBA), où j'ai validé deux années de classes préparatoires. En <em>première année</em>, j&apos;ai obtenu une mention <strong>très bien</strong>, et en <em>deuxième année</em>, une mention <strong>bien</strong>, ce qui m&apos;a permis de développer rigueur et polyvalence.</p>
+<p>Mes bases ont été construites à l&apos;<strong>École Nationale Supérieure d&apos;Informatique</strong> (ESI SBA), où j&apos;ai validé deux années de classes préparatoires. En <em>première année</em>, j&apos;ai obtenu une mention <strong>très bien</strong>, et en <em>deuxième année</em>, une mention <strong>bien</strong>, ce qui m&apos;a permis de développer rigueur et polyvalence.</p>
 <p>Ce parcours me prépare à exceller dans le domaine du développement web, avec une approche pratique et des bases théoriques solides.</p>
 
                 </div>
