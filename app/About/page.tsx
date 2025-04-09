@@ -1,11 +1,13 @@
-import React from 'react'
 import MainTitle from '../components/MainTitle'
+import React from 'react'
+
 import { BiLogoPostgresql, BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript, BiLogoJava, BiLogoPhp, BiLogoFigma } from 'react-icons/bi'
 import { SiSocketdotio, SiExpress, SiNextdotjs, SiPrisma, SiGraphql, SiApollographql} from 'react-icons/si'
 
 import { DiNodejs } from 'react-icons/di'
 import { BsGit } from 'react-icons/bs'
 import { FaDocker, FaPython, FaLaravel } from 'react-icons/fa'
+
 
 
 interface Technology {
@@ -30,29 +32,22 @@ const Technologies: Technology[] = [
     { name: 'Appolo', logo: <SiApollographql />    },
 
 ];
-
 const About = () => {
-
-    return (
-        <div className='container m-auto flex flex-col lg:flex-row items-center lg:items-start lg:gap-40 px-10'>
-            <div className='md:w-1/2'>
-                <MainTitle title={'Apropos de moi'} />
-                <div className='text-xl mt-20 border-t dark:border-gray-800 tracking-wider line shadow-xl p-10 rounded-lg dark:shadow-gray-800'>
-                    <p>HADJEBAR Nassim , un étudiant en informatique </p>
-                    <p><strong>Formation :</strong></p>
-<p>Mon parcours académique reflète une progression ambitieuse vers le développement web :</p>
-<br/>
-<p>je souhaite integrer un <strong>Bachelor 3 en Développement Web</strong> à l&apos;EPSI France pour l&apos;année prochaine. J&apos;envisage de poursuivre cette formation en alternance l&apos;année prochaine afin de me spécialiser et d&apos;acquérir une expérience pratique enrichissante dans le domaine du développement web.</p>
-<br/>
-<p>actuellement, je suis inscrit en <strong>L2 en Informatique</strong> à l&apos;Université d&apos;Angers, où j&apos;approfondis mes connaissances techniques tout en consolidant mes compétences dans la programmation.</p>
-<br/>
-<p>Mes bases ont été construites à l&apos;<strong>École Nationale Supérieure d&apos;Informatique</strong> (ESI SBA), où j&apos;ai validé deux années de classes préparatoires. En <em>première année</em>, j&apos;ai obtenu une mention <strong>très bien</strong>, et en <em>deuxième année</em>, une mention <strong>bien</strong>, ce qui m&apos;a permis de développer rigueur et polyvalence.</p>
-<p>Ce parcours me prépare à exceller dans le domaine du développement web, avec une approche pratique et des bases théoriques solides.</p>
-
-                </div>
-            </div>
-
-            <div className='md:w-1/2'>
+  return (
+    <div className='container m-auto flex flex-col lg:flex-row items-center lg:items-start lg:gap-40 px-10'>
+      <div className='md:w-1/2'>
+        <MainTitle title={'À propos de moi'} />
+        <div className='text-xl mt-20 border-t dark:border-gray-800 tracking-wider line shadow-xl p-10 rounded-lg dark:shadow-gray-800'>
+          <p>Je suis Yazid Battou, étudiant en 2e année de licence informatique à l&apos;Université d&apos;Angers.</p>
+          <br />
+          <p>Je suis actuellement à la recherche d&apos;une alternance pour un Bac+3 dans le domaine du développement informatique.</p>
+          <br />
+          <p>Mes passions incluent la cybersécurité, les réseaux, et la programmation. J&apos;ai eu l&apos;occasion de travailler sur des projets académiques concrets en Python, C++, SQL, et développement Web.</p>
+          <br />
+          <p>J&apos;ai obtenu une mention très bien au baccalauréat mathématique et suivi une année en économie avant de me tourner vers l&apos;informatique.</p>
+        </div>
+      </div>
+      <div className='md:w-1/2'>
                 <MainTitle title={'mes comptences'} />
                 <div className='flex mt-20 flex-wrap justify-between gap-x-5 gap-y-3 md:gap-x-10 md:gap-y-5'>
                     {Technologies.map((e, i) => {
@@ -63,8 +58,8 @@ const About = () => {
                     })}
                 </div>
             </div>
-        </div>
-    )
+    </div>
+  )
 }
 
 export default About
