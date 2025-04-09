@@ -38,14 +38,27 @@ const About = () => {
       <div className='md:w-1/2'>
         <MainTitle title={'À propos de moi'} />
         <div className='text-xl mt-20 border-t dark:border-gray-800 tracking-wider line shadow-xl p-10 rounded-lg dark:shadow-gray-800'>
-          <p>Je suis Yazid Battou, étudiant en 2e année de licence informatique à l&apos;Université d&apos;Angers.</p>
-          <br />
-          <p>Je suis actuellement à la recherche d&apos;une alternance pour un Bac+3 dans le domaine du développement informatique.</p>
-          <br />
-          <p>Mes passions incluent la cybersécurité, les réseaux, et la programmation. J&apos;ai eu l&apos;occasion de travailler sur des projets académiques concrets en Python, C++, SQL, et développement Web.</p>
-          <br />
-          <p>J&apos;ai obtenu une mention très bien au baccalauréat mathématique et suivi une année en économie avant de me tourner vers l&apos;informatique.</p>
-        </div>
+  <p>
+    Mon parcours témoigne d&apos;une curiosité intellectuelle forte et d&apos;un cheminement riche : après un baccalauréat en mathématiques obtenu avec mention très bien, j&apos;ai exploré l&apos;économie et la statistique avant de m&apos;orienter vers ce qui est devenu une évidence pour moi : l&apos;informatique.
+  </p>
+  <br />
+  <p>
+    Aujourd&apos;hui étudiant en L2 Informatique à l&apos;Université d&apos;Angers, je me suis progressivement spécialisé en programmation, algorithmique, bases de données, systèmes d&apos;exploitation et développement web. Cet apprentissage m&apos;a conduit à m&apos;intéresser plus particulièrement à la cybersécurité et à la protection des systèmes d&apos;information.
+  </p>
+  <br />
+  <p>
+    J&apos;ai pu concrétiser ces compétences à travers plusieurs projets : un mini-SGBDR en Python et SQL, un système de gestion de bibliothèque en C++, ou encore un projet d&apos;analyse de stratégies de jeux à l&apos;aide de graphes (Python, NetworkX, Matplotlib).
+  </p>
+  <br />
+  <p>
+    Mon objectif est clair : intégrer une Licence 3 en informatique en alternance afin de renforcer mes acquis, évoluer dans un cadre académique stimulant, et me préparer efficacement à un Master en informatique. Mon ambition est de devenir ingénieur ou analyste en sécurité des systèmes d&apos;information.
+  </p>
+  <br />
+  <p>
+    Rigoureux, persévérant et passionné, je suis convaincu que l&apos;apprentissage est un processus continu. Mon esprit d&apos;initiative et ma capacité à m&apos;adapter sont des atouts que je souhaite mettre au service d&apos;une structure innovante et exigeante.
+  </p>
+</div>
+
       </div>
       <div className='md:w-1/2'>
                 <MainTitle title={'mes comptences'} />
